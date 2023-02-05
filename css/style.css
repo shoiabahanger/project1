@@ -1,0 +1,143 @@
+body{
+    font-family: 'Righteous', cursive;
+    background-color: #FFFAEF;
+}
+.header {
+    height: 800px;
+}
+.logo {
+    height: 95px;
+    width: 140px;
+}
+.nav-bg {
+    background-color: transparent !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #FA682A;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-item {
+    color: #FA682A;
+    border-bottom: 2px solid #FA682A;
+}
+.carousel {
+    position:absolute;
+    top:0;
+}
+.navbar {
+    position:absolute;
+    z-index:10;
+    background:#fff;
+    width:100%;
+}
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 10px;
+ }
+ .carousel-caption {
+    top: 160px;
+    bottom: auto;
+    text-align: left;
+}
+
+
+.btn-call {
+    background-color: #FA682A;
+    border-radius: 21px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    height: 41px;
+    width: 247px;
+    padding: 10px;
+    line-height: 22px;
+    text-align: center;
+}
+.officetime{
+    color: #303030;
+    font-size: 12px;
+    margin-left: 54px;
+}
+.hero-image{
+    font-size: 78px;
+    width: 600px;
+    margin-top: 60px;
+    color: #6B1010;
+}
+.heading2{
+    color: #303030;
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+
+}
+.main-body {
+    background-color: #FFFAEF;
+    height: 3000px;
+}
+
+
+.section1p {
+    border-left: 4px solid #FA682A;
+    padding: 10px;
+}
+.section1p2 {
+    color: #303030;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align:left;
+}
+.readmore{
+    color:#FA682A;
+    font-size: 24px;
+    text-decoration:none;
+}
+.section3{
+    height: 394px;
+    background-image: url('/images/section3bg.png');
+    padding: 84px;
+    text-align: center;
+}
+.plain-bg {
+    background: #FFDCC2;
+    border-radius: 65px;
+    padding: 8px;
+    margin-left: -15px;
+    margin-right: 16px;
+}
+.section4 li {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+
+}
+
+
+
+
+
+.footer-bg{
+    background-color: #6B1010;
+}
+.footer-bg  h1 {
+ font-size: 16px;
+ color: #FA682A;
+ margin-top: 50px;
+ text-align: left;
+}
+.footer-bg p {
+    color: #FFDCC2;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.footer-bg i {
+    color: #FFF;
+    font-size: 28px;
+}
+
+.footer-bg hr {
+    color: #FFF;
+}
