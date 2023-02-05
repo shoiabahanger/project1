@@ -132,6 +132,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
+.footer-bg li {
+ background: transparent;
+ border: none;
+}
 
 .footer-bg i {
     color: #FFF;
