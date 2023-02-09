@@ -6,9 +6,25 @@ body{
     height: 800px;
 }
 .logo {
-    height: 95px;
+    height: 100px;
     width: 140px;
+    margin-right: 50px;
 }
+.orange{
+    color: #FA682A;
+}
+.yellow {
+    color :#FDCC0D;
+}
+.bgorange{
+    background-color: #FA682A;
+}
+.poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
 .nav-bg {
     background-color: transparent !important;
 }
@@ -74,8 +90,12 @@ body{
 }
 .main-body {
     background-color: #FFFAEF;
-    height: 3000px;
+    height: auto;
 }
+.text-color{
+    color: #6B1010;
+}
+
 
 
 .section1p {
@@ -88,14 +108,20 @@ body{
     font-size: 16px;
     text-align:left;
 }
+.section1p3 {
+    color: #303030;
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    text-align:left;
+}
 .readmore{
     color:#FA682A;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration:none;
 }
 .section3{
     height: 394px;
-    background-image: url('/images/section3bg.png');
+    background-image: url('../images/section3bg.png');
     padding: 84px;
     text-align: center;
 }
@@ -113,9 +139,37 @@ body{
 
 }
 
+.cardplan {
+  background-color:  #FFFAEFB3;
+  border: 2px solid #FA682A;
+}
+
+.cardplanactive {
+    color:  #FFFAEF;
+    border: none;
+    height: 185px;
+  }
+.cardplanactive p {
+    font-size: 13px;
+}
+
+.cardtestmon{
+    background: #FFDCC2;
+    border-radius: 0px 100px 0px 0px;
+    border: none;
+    color: #303030;
+    font-size: 13px;
+}
 
 
 
+
+.cardplan img {
+    margin-top: 50px;
+    width: 50px;
+    margin-left: 97px;
+    margin-bottom: 35px;
+}
 
 .footer-bg{
     background-color: #6B1010;
@@ -136,7 +190,6 @@ body{
  background: transparent;
  border: none;
 }
-
 .footer-bg i {
     color: #FFF;
     font-size: 28px;
@@ -144,4 +197,18 @@ body{
 
 .footer-bg hr {
     color: #FFF;
+}
+.email-footer{
+    margin-left : 10px;
+}
+
+.email-footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.email-footer a:hover {
+    color:inherit; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
