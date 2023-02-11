@@ -79,7 +79,7 @@ body{
 }
 
 /* for 1440 */
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 1024px) {
     .mt-d-100 {
       margin-top: 100px !important;
   }
