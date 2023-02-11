@@ -80,6 +80,12 @@ body{
 
 /* for 1440 */
 @media screen and (min-width: 1024px) {
+    .navbar-nav .nav-link, .navbar-nav .show>.nav-item {
+        font-weight: 400;
+        font-size: 19px;
+        color: #303030;
+        margin: 8px;
+    }
     .mt-d-100 {
       margin-top: 100px !important;
   }
