@@ -3,7 +3,6 @@ body{
     background-color: #FFFAEF;
 }
 .header {
-
     height: 800px;
 }
 .logo {
@@ -11,6 +10,84 @@ body{
     height: 122px;
     margin-right: 50px;
 }
+/* for mobile UI */
+@media (max-width: 575.98px) { 
+    .header {
+            height: auto;
+        }
+    
+        .logo {
+            width: 80px;
+            margin-right: 5px;
+        }
+    
+        .navbar {
+            z-index: 10;
+            width: 61% !important;
+            top: -40px !important;
+        }
+    
+        .mt10-sm {
+            margin-top: 130px;
+        }
+    
+        .navbar-toggler:focus {
+            text-decoration: none;
+            outline: 0;
+            box-shadow: 0 0 0 #FA682A;
+        }
+    
+        .navbar-toggler {
+            border-color: #FA682A;
+            font-size: 13px;
+        }
+    
+        .navbar-collapse {
+            background: #fdebe4 !important;
+        }
+
+        .hero-image {
+            position: absolute;
+            top: 35%;
+            left: 4%;
+            font-size: 23px;
+        }
+        .heading2 {
+            position: absolute;
+            top: 60%;
+            left: 4%;
+            font-size: 14px !important;
+        }
+
+        .h1-text-color {
+            color: #6B1010;
+            font-size: 10px !important;
+        }
+        .section1p {
+            border-left: 2px solid #FB986A !important;
+            padding: 3px !important;
+            font-size: 6px !important;
+            margin-top: 10px !important;
+        }
+
+        .section1p2 {
+            font-size: 6px !important;
+            margin-top: -6px !important;
+            margin-bottom: -1px;
+        }
+        .readmore {
+            font-size: 10px !important;
+        }
+        .readmore img {
+            width: 8%; 
+        }
+        .mt-d-100{
+            margin-top: 10px;
+        }
+ }
+
+
+
 .orange{
     color: #FA682A;
 }
